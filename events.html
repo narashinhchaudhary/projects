@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <style>
+    *, :after, :before {
+    box-sizing: border-box;
+}
+    .container-fluid {
+      padding-left: 10%;
+      padding-left: 10%;
+      background-color: rgb(252, 119, 10);
+
+    }
+
+    .logo {
+      height: 4em;
+      width: 7em;
+      color: aqua;
+    }
+
+    .bars {
+      margin-top: 7%;
+      margin-left: 60%;
+    }
+
+    .offcanvas-body>a,
+    .si {
+      display: block;
+      padding-left: 40px;
+      text-decoration: none;
+      line-height: 50px;
+    }
+     #demo{
+    width: 300px;
+  }
+
+    .offcanvas-body i {
+      margin-right: 10px;
+    }
+
+    .conteiner {
+      padding-left: 10%;
+      padding-right: 5%;
+    }
+    
+    .main{
+      line-height: 10px;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color:rgb(214, 212, 212);
+
+    }
+    .image {
+      height: 300px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+
+    }
+
+    .image img {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .footer{
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 20px;
+      background-color: black;
+      color: white;
+    }
+    .footer i{
+      padding-right: 20px;
+      line-height: 50px;
+      font-size: 1.4rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!--------------------------------navbar start--------------------------  -->
+  <header>
+    <div class="container-fluid  ">
+      <div class="row  justify-content-around">
+        <div class="col  ps-lg-5">
+          <img class="logo" src="https://invinciblengo.org/_nuxt/img/1a82462.svg" alt="">
+          <p class="text-danger"> <h3>Events</h3></p>
+           <p>Life is either a daring adventure or nothing.</p>
+        </div>
+        <div class="col">
+          <div class="offcanvas offcanvas-end" id="demo">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body ">
+              <a href="index.html"><i class="fa-solid fa-house"></i> home</a>
+              <a href="events.html"><i class="fa-solid fa-mountain"></i>events</a>
+              <a href="downloads.html"><i class="fa-solid fa-download"></i>downloads</a>
+              <a href="about.html"><i class="fa-solid fa-building"></i>about</a>
+              <a href="team.html"><i class="fa-solid fa-people-group"></i>team</a>
+              <a href="contact us.html"><i class="fa-solid fa-phone"></i>contact</a>
+              <a href="login .html"><i class="fa-regular fa-user"></i>users</a>
+              <hr>
+              <p class="text-danger si">contact</p>
+              <p class="si"><i class="fa-solid fa-phone"></i>+91 6351585389</p>
+              <p class="si"><i class="fa-solid fa-phone"></i>+91 9737761724</p>
+              <p class="si"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                  class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-location-dot"></i>
+              </p>
+            </div>
+          </div>
+          <div>
+            <button class="btn bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  </header>
+  <!-------------------------------------------events details-----------------------------  -->
+  <div class="conteiner mt-5">
+    <div class="row ">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/c2e71eae-ccb6-4584-af7d-cc09c029b80f"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Kashmir Snow Trek</p>
+          <p> From ₹ 12,500/- • 10 days / 9 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/bb9653b7-dfe2-4ffc-b0f0-f62f49ddda30"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Discover Kutch</p>
+          <p>From ₹ 3,999/- • 3 days / 2 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4 ">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/42a7b027-f1e1-4c0d-9a66-4ba9f37acbf5"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Dwarka Dolphin Exploration</p>
+          <p>From ₹ 5,999/- • 3 days / 2 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/cf6cbefb-0985-4c4a-8e45-0f53eadcc8ed"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Kasol Manali Adventure Camp</p>
+          <p> From ₹ 9,500/- • 9 days / 8 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/0ae09f35-863a-48c3-b38a-6bbd1417b35a"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Spiti in the Snow</p>
+          <p> From ₹ 16,000/- • 10 days / 9 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/5a3f7287-a907-43de-aa27-df1f7203ba92"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Jaisalmer Family Camp</p>
+          <p> From ₹ 5,999/- • 3 days / 2 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/76687d43-8df0-45b3-8492-cc65b46f12f5"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Brahmatal Trek</p>
+          <p> From ₹ 5,999/- • 5 days / 4 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/4469ac64-d837-46f2-bc49-34b4f1eb03bb"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Marvellous Matherans</p>
+          <p> From ₹ 5,500/- • 3 days / 2 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/7bb9fc53-e89c-4978-9520-c7faca32edae"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Jaisalmer Desert Camping</p>
+          <p> From ₹ 4,999/- • 4 days / 3 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/61d92db1-47a6-4004-9f19-f303780945d8"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Snow Trekking in Manali</p>
+          <p> From ₹ 8,350/- • 8 days / 7 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4 ">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/fab7be22-36dc-434c-affa-74b16399f247"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Kedarkantha Snow Trek</p>
+          <p> From ₹ 7,750/- • 5 days / 4 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4 ">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/3744df65-c3f2-4f7c-b75f-095e77eb59f8"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Saputara Adventure Camp</p>
+          <p> From ₹ 2,499/- • 3 days / 2 nights</p>
+        </div>
+      </div>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-4">
+        <div class="main">
+        <div class="image"><img
+            src="https://img.invinciblengo.org/iconscout/f:jpeg/w:1800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/trek/044b3ff6-8678-469c-87f1-f249048fab6f"
+            alt=""></div>
+        <div class="from">
+          <p class="text-danger">Bakor Nature Camp</p>
+          <p> From ₹ 1,499/- • 2 days / 1 night</p>
+        </div>
+      </div>  
+      </div>
+    </div>
+  </div>
+   <!----------------------------------footer----------------------  -->
+   <div class=" row  footer">
+    <div class="col-12 col-md-6 col-lg-4 py-3">
+   <img style="height: 200px; width: 200px;" src="https://invinciblengo.org/_nuxt/img/59fac0f.svg" alt="">
+   <p class="text-secondary">Invincible is a Non Government Organization, being run by young students for social reformation and building the nation with moral values and ethics.</p>
+   <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-location-dot"></i>       
+    </div>
+    <div class="col-lg-4 py-3 d-none d-lg-block ">
+       <ul>
+        <li class="text-danger">Quick Links</li>
+       <a href="events.html"><li>Events</li></a>
+       <a href="downloads.html">  <li>Downloads</li> </a>
+        <a href="login .html"> <li> Login</li></a>
+          <a href="stories.html"> <li> Stories</li></a>
+            <a href="contact us.html"> <li>Contact us</li></a>
+       </ul>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 py-3 ">
+      <ul>
+       <li class="text-danger">contact</li>
+       <li>ahmedabad</li>
+        <li>308, University Plaza, Above Chocolate Room,
+          Vijay Cross Roads, Navrangpura,
+          Ahmedabad, Gujarat 380009</li> 
+        <li> Office Timings: 11AM to 8PM</li>
+        <li> <i class="fa-solid fa-phone"></i>+91 6351585389</li>
+        <li><i class="fa-solid fa-phone"></i>+91 9737761274</li>
+        <li class="text-danger"><a href="">Contact for Rajkot, Baroda, Surat Office right arrow</a></li>
+      </ul>
+   </div>
+   <hr>
+   <p>© 2013-2022 Invincible. • Privacy Policy • Terms and Conditions</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <style>
+      *, :after, :before {
+      box-sizing: border-box;
+  }
+      .container-fluid {
+        width: 100%;
+        padding-left: 10%;
+        padding-left: 10%;
+        background-color: rgb(252, 76, 7);
+  
+      }
+  
+      .logo {
+        height: 4em;
+        width: 7em;
+        color: aqua;
+      }
+  
+      .bars {
+        margin-top: 7%;
+        margin-left: 60%;
+      }
+  
+      .offcanvas-body>a,
+      .si {
+        display: block;
+        padding-left: 40px;
+        text-decoration: none;
+        line-height: 50px;
+      }
+  
+      #demo{
+    width: 300px;
+     }
+
+    .offcanvas-body i {
+      margin-right: 10px;
+    }
+    .container{
+        padding: 20px;
+    }
+    
+
+
+      .footer{
+      width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20px;
+        background-color: black;
+        color: white;
+      }
+      .footer i{
+        padding-right: 20px;
+        line-height: 50px;
+        font-size: 1.4rem;
+      }
+    </style>
+</head>
+<body>
+     <!--------------------------------navbar start--------------------------  -->
+  <header>
+    <div class="container-fluid  ">
+      <div class="row  justify-content-around">
+        <div class="col  ps-lg-5">
+          <img class="logo" src="https://invinciblengo.org/_nuxt/img/1a82462.svg" alt="">
+          <p class="text-danger"><h3> About</h3></p>
+          <p> Who we are & where do we stand</p>
+        </div>
+        <div class="col">
+          <div class="offcanvas offcanvas-end" id="demo">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body ">
+              <a href="index.html"><i class="fa-solid fa-house"></i> home</a>
+              <a href="events.html"><i class="fa-solid fa-mountain"></i>events</a>
+              <a href="downloads.html"><i class="fa-solid fa-download"></i>downloads</a>
+              <a href="about.html"><i class="fa-solid fa-building"></i>about</a>
+              <a href="team.html"><i class="fa-solid fa-people-group"></i>team</a>
+              <a href="contact us.html"><i class="fa-solid fa-phone"></i>contact</a>
+              <a href="login .html"><i class="fa-regular fa-user"></i>users</a>
+              <hr>
+              <p class="text-danger si">contact</p>
+              <p class="si"><i class="fa-solid fa-phone"></i>+91 6351585389</p>
+              <p class="si"><i class="fa-solid fa-phone"></i>+91 9737761724</p>
+              <p class="si"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                  class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-location-dot"></i>
+              </p>
+            </div>
+          </div>
+          <div>
+            <button class="btn bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  </header>
+  <!-------------------------------------------------------downloads details ----------------------------- -->
+         <div class="container">
+            <h5 class="text-danger">Vision</h5>
+            <p>Keeping the core values and the ethics in center, INVINCIBLE – the NGO will be a benchmark in training the youth for a better situation. The NGO will work for enhancement of all good qualities in the modern youth with a brighter way…</p>
+            <h5 class="text-danger">Mission</h5>
+            <p> The motive of the NGO is to moderate the young thinking for a happy and developed world. The youth become responsible and understand their own need for the society and country is the heart value of the mission…</p>
+            <h5 class="text-danger">Objectives</h5>
+            <p> The idea of establishing NGO came up during the various activities with other NGOs as a part of collaboration with NSS/NCC in college activities. It was a very clear view behind the organization that it will be for young people and specially students development activities will be given priority.
+                 Keeping the ethics and value system in center, the NGO has thought for such activities, which will fill valuable qualities in the youth. NGO is thankful to all the young students of various colleges who are voluntarily giving a boost to the activities. For spreading awareness in the field of adventure, NGO has planned some very charming events as per regular basis.</p> 
+         </div>
+  <!----------------------------------footer----------------------  -->
+   <div class=" row  footer">
+    <div class="col-12 col-md-6 col-lg-4 py-3">
+   <img style="height: 200px; width: 200px;" src="https://invinciblengo.org/_nuxt/img/59fac0f.svg" alt="">
+   <p class="text-secondary">Invincible is a Non Government Organization, being run by young students for social reformation and building the nation with moral values and ethics.</p>
+   <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-location-dot"></i>       
+    </div>
+    <div class="col-lg-4 py-3 d-none d-lg-block ">
+       <ul>
+         <li class="text-danger">Quick Links</li>
+        <a href="events.html"> <li>Events</li></a>
+        <a href="downloads.html"><li>Downloads</li> </a>
+        <a href="login .html"><li> Login</li></a>
+        <a href="stories.html"><li> Stories</li></a>
+        <a href="contact us.html"><li>Contact us</li></a>
+       </ul>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 py-3 ">
+      <ul>
+       <li class="text-danger">contact</li>
+       <li>ahmedabad</li>
+        <li>308, University Plaza, Above Chocolate Room,
+          Vijay Cross Roads, Navrangpura,
+          Ahmedabad, Gujarat 380009</li> 
+        <li> Office Timings: 11AM to 8PM</li>
+        <li> <i class="fa-solid fa-phone"></i>+91 6351585389</li>
+        <li><i class="fa-solid fa-phone"></i>+91 9737761274</li>
+        <li class="text-danger"><a href="">Contact for Rajkot, Baroda, Surat Office right arrow</a></li>
+      </ul>
+   </div>
+   <hr>
+   <p>© 2013-2022 Invincible. • Privacy Policy • Terms and Conditions</p>
+  </div>
+</body>
+</html>
