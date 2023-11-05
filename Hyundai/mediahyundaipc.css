@@ -1,0 +1,869 @@
+@media(min-width:1025px) and (max-width:1200px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /* heading start */
+.heading
+{
+    height: 80px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    padding-left: 58px;
+    padding-top: 4px;
+    /* background-color: bisque; */
+}
+.logo
+{
+    height: 74px;
+    width: 15%;
+    padding-right: 25px;
+}
+.logo img
+{
+    height: 70px;
+    width: 100%;
+}
+.nav
+{
+    height: 70px;
+    width: 85%;
+}
+.nav ul
+{
+    height: 70px;
+    width: 100%;
+    
+}
+.nav ul li
+{
+    list-style: none;
+    float: left;
+    padding: 26px 20px;
+}
+.nav ul li:hover
+
+{
+    color:red;
+}
+.fa{
+    padding-top: 25px;
+    padding-right:10px;
+    margin-left: 8px;
+}
+/* heading end */
+
+/* main img start */
+.main{
+    height: 770px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.main img{
+    height: 755px;
+    width: 100%;
+}
+/* main img end */
+
+/* car start */
+.car{
+    height: 110px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    
+}
+.car h1{
+    height: 38px;
+    width: 100%;
+    /* padding-left: 50%; */
+    text-align: center;
+}
+.nav1
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: blueviolet; */
+   
+    
+}
+.nav1 ul
+{
+    height: 70px;
+    width: 100%;
+    padding-left: 36%;
+   
+}
+.nav1 ul li
+{
+    list-style: none;
+    float: left;
+    padding: 26px 13px;
+}
+.nav1 ul li:hover
+
+{
+    color:red;
+}
+/* car end */
+
+/* santro start */
+.santro{
+    height: 300px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+.santro img{
+    height: 296px;
+    width: 50%;
+    margin-left: 27%;
+
+}
+/* santro end */
+
+/* link start */
+.link{
+    height: 200px;
+    width: 100%;
+    padding-left: 25%;
+    padding-top: 15px;
+    /* background-color: bisque; */
+}
+.fa-chevron-right{
+
+    color: blue;
+    
+}
+.santro1{
+    height: 112px;
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    /* color: grey; */
+   
+}
+
+.for1{
+    height: 90px;
+    width: 18%;
+    margin-left: 15%;
+    
+}
+.for2
+{
+    height: 112px;
+    width: 20%;
+    margin-left: 5%;
+}
+.for3{
+    height: 45px;
+    width: 29%;
+    margin-left: 5%;
+    padding-top: 0%;
+}
+/* link end */
+
+/* buttonbox star */
+.buttonbox{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(230, 226, 226);
+}
+.button1 {
+    background-color: rgb(130, 107, 107);
+    border: 1px solid black;
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+.button2{
+    background-color: rgb(130, 107, 107);
+    border: 1px solid black;
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 15px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+.button3{
+    background-color: rgb(130, 107, 107);
+    border: 1px solid black;
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 15px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+.button4{
+    background-color: rgb(130, 107, 107);
+    border: 1px solid black;
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 15px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+}
+/* buttonbox end */
+
+/* box1 start */
+.box1{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(9, 9, 104);
+    color: white;
+}
+.box1 h3{
+    height: 22px;
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 8%;
+    font-size: 18px;
+    font-weight: 100;
+}
+.box1 h1{
+    height: 40px;
+    width: 100%;
+    margin-left: 13%;
+    font-size: 35px;
+    font-weight: 100;
+}
+/* box1 end */
+
+/* imgbox1 start */
+.imgbox1{
+    height: 508px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding-left: 10%;
+    /* background-color: blue; */
+   
+  
+}
+.img1{
+    height: 508px;
+    width: 30%;   
+}
+.img1 img{
+    height: 441px;
+    width: 90%;
+}
+.c1
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c12{
+    height: 38px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.img2{
+    height: 508px;
+    width: 30%; 
+}
+.img2 img{
+    height: 441px;
+    width: 90%;
+}
+.c2
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c21{
+    height: 38px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.img3{
+    height: 508px;
+    width: 30%;   
+}
+.img3 img{
+    height: 441px;
+    width: 90%;
+}
+.c3
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c31{
+    height: 38px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+/* imgbox1 end */
+
+/* imgbox2 start */
+.imgbox2{
+    height: 623px;
+    width: 100%;
+    /* background-color: rgb(131, 11, 11); */
+    display: flex;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+.img4{
+    height: 546px;
+    width: 30%;   
+}
+.img4 img{
+    height: 441px;
+    width: 90%;
+}
+.c4
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c41{
+    height: 76px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.img5{
+    height: 546px;
+    width: 30%;   
+}
+.img5 img{
+    height: 441px;
+    width: 90%;
+}
+.c5
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c51{
+    height: 76px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.c52{
+    height: 38px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.img6{
+    height: 623px;
+    width: 30%;   
+}
+.img6 img{
+    height: 441px;
+    width: 90%;
+}
+.c6
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c61{
+    height: 76px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.c62{
+    height: 76px;
+    width: 100%;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+/* imgbox2 end */
+
+/* imgbox3 start */
+.imgbox3{
+    height: 546px;
+    width: 100%;
+    /* background-color: rgb(131, 11, 11); */
+    display: flex;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+.img7{
+    height: 508px;
+    width: 30%;   
+}
+.img7 img{
+    height: 441px;
+    width: 90%;
+}
+.c7
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c71{
+    height: 38px;
+    width: 100%;
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.img8{
+    height: 531px;
+    width: 30%;   
+}
+.img8 img{
+    height: 441px;
+    width: 90%;
+}
+.c8
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c81{
+    height: 61px;
+    width: 100%;
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.img9{
+    height: 546px;
+    width: 30%;   
+}
+.img9 img{
+    height: 441px;
+    width: 90%;
+}
+.c9
+{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+.c91{
+    height: 61px;
+    width: 100%;
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+/* imgbox3 end */
+
+/* main2 start */
+.main2{
+    height: 548px;
+    width: 100%;
+    margin-top: 50px;
+}
+.main2 img{
+    height: 544px;
+    width: 100%;
+}
+/* main2 end */
+
+/* buttonbox2 start */
+.buttonbox2{
+    height: 83px;
+    width: 100%;
+    /* background-color: rgb(43, 211, 226); */
+    margin-top: 5%;
+}
+.button5{
+
+    background-color: rgb(46, 31, 112);
+    /* border: 1px solid black; */
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 36%;
+    margin-top: 14px;
+    padding: 15px 80px 15px 80px;
+    cursor: pointer;
+}
+/* buttonbox2 end */
+
+.box2{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(9, 9, 104);
+    color: white;
+}
+.box2 h3{
+    height: 27px;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 24px;
+    font-weight: 100;
+}
+.box2 h1{
+    height: 59px;
+    width: 100%;
+    margin-left: 15%;
+    font-size: 50px;
+    font-weight: 100;
+}
+/* box2 end */
+
+/* imgbox4 start */
+.imgbox4{
+    height: 320px;
+    width: 100%;
+    /* background-color: rgb(131, 11, 11); */
+    display: flex;
+    margin-top: 5%;
+    padding-left: 6%;
+}
+.img10{
+    height: 320px;
+    width: 35%;   
+}
+.img10 img{
+    height: 316px;
+    width: 80%;
+}
+.img11{
+    height: 320px;
+    width: 35%;   
+}
+.img11 img{
+    height: 316px;
+    width: 80%;
+}
+.img12{
+    height: 320px;
+    width: 35%;   
+}
+.img12 img{
+    height: 316px;
+    width: 80%;
+}
+/* imgbox4 end */
+
+/* imgbox5 start */
+.imgbox5{
+    height: 320px;
+    width: 100%;
+    /* background-color: rgb(131, 11, 11); */
+    display: flex;
+    margin-top: 5%;
+    padding-left: 6%;
+}
+.img13{
+    height: 320px;
+    width: 35%;   
+}
+.img13 img{
+    height: 316px;
+    width: 80%;
+}
+.img14{
+    height: 320px;
+    width: 35%;   
+}
+.img14 img{
+    height: 316px;
+    width: 80%;
+}
+.img15{
+    height: 320px;
+    width: 35%;   
+}
+.img15 img{
+    height: 316px;
+    width: 80%;
+}
+/* imgbox5 end */
+
+/* imgbox6 start */
+.imgbox6{
+    height: 320px;
+    width: 100%;
+    /* background-color: rgb(131, 11, 11); */
+    display: flex;
+    margin-top: 5%;
+    padding-left: 6%;
+}
+.img16{
+    height: 320px;
+    width: 35%;   
+}
+.img16 img{
+    height: 316px;
+    width: 80%;
+}
+.img17{
+    height: 320px;
+    width: 35%;   
+}
+.img17 img{
+    height: 316px;
+    width: 80%;
+}
+/* imgbox6 end */
+
+/* box3 start */
+.box3{
+    height: 780px;
+    width: 100%;
+    background-color: #f6f6f6;
+    margin-top: 60px;
+   
+}
+.news{
+    height: 272px;
+    width: 100%;
+   
+}
+.ns{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.p0{
+    height: 420px;
+    width: 91%;
+    border: 1px solid rgba(68, 67, 67, 0.61);
+    background-color: white;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 3%;
+    color: #5f5f5f;
+}
+.p1{
+    height: 150px;
+    width: 54%;
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 22%;
+}
+.button6{
+    background-color: rgb(46, 31, 112);
+    /* border: 1px solid black; */
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-top: 60px;
+    padding: 15px 80px 15px 80px;
+    cursor: pointer;
+}
+/* box3 end */
+
+/* box4 start */
+.box4{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.website{
+    height: 52px;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 45px;
+
+}
+.locate{
+    height: 50px;
+    width: 100%;
+    font-size: 17px;
+    font-style: bold;
+    padding-top: 10px;
+
+}
+/* box4 end */
+
+/* selectbox start */
+.selectbox{
+    height: 200px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+#Dealership
+{
+   
+    height: 30px;
+    width: 15%;
+    /* text-align: center; */
+    margin-left: 12%;
+    margin-top: 2%;
+    background-color: white;
+}
+#model
+{
+   
+    height: 30px;
+    width: 15%;
+    /* text-align: center; */
+    margin-left: 5%;
+}
+#state
+{
+    
+    height: 30px;
+    width: 15%;
+    /* text-align: center; */
+    margin-left: 5%;
+}
+#city
+{
+    
+    height: 30px;
+    width: 15%;
+    /* text-align: center; */
+    margin-left: 5%;
+}
+
+.buttonbox3{
+    height: 100px;
+    width: 100%;
+   
+}
+.button7{
+    background-color: rgb(46, 31, 112);
+    /* border: 1px solid black; */
+    color: white;
+    border-radius: 1px;
+    font-family: initial;
+    font-size: 18px;
+    margin-left: 41%;
+    margin-top: 40px;
+    padding: 15px 80px 15px 80px;
+    cursor: pointer;
+}
+/* select end */
+
+/* footer start */
+.footer
+{
+    height: 136px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding-left:0px;
+    padding-top: 5px;
+
+}
+
+.hyundailogo
+{
+    height: 56px;
+    width: 15%;
+    padding-right: 0px;
+    /* margin-left: 5%; */
+    padding-top:10px;
+}
+.hyundailogo img
+{
+    height: 30px;
+    width: 28%;
+    margin-top: 0%;
+    margin-left: 45%;
+}
+.nav2
+{
+    height: 118px;
+    width: 85%;
+    
+}
+.nav2 ul
+{
+    height: 86px;
+    width: 100%;
+    color: rgb(197, 203, 176);
+}
+.nav2 ul li
+{
+    /* height: 70px; */
+    list-style: none;
+    padding: 20px 10px;
+    margin-right: 9px;
+}
+.fa{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.fa:hover
+
+{
+    color:red;
+}
+.fa-facebook{
+    
+    color: rgb(197, 203, 176);
+    margin-left: 22px;
+}
+.fa-youtube-play{
+    
+    color: rgb(197, 203, 176);
+}
+.fa-twitter{
+    
+    color: rgb(197, 203, 176);
+}
+.fa-linkedin-square{
+    
+    color: rgb(197, 203, 176);
+}
+.fa-instagram{
+    
+    color: rgb(197, 203, 176);
+}
+.fa-whatsapp{
+    
+    color: rgb(197, 203, 176);
+}
+.para{
+    height: 32px;
+    width: 100%;
+}
+.copyright{
+    height: 32px;
+    width: 100%;
+    margin-left: 20%;
+    line-height: 2rem;
+    /* border: 1px solid white; */
+    color: #5f5f5f;
+    
+}
+/* footer end */
+
+
+}
+
+
+
