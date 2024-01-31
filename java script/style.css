@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;1,200&display=swap');
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Titillium Web', sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 40px 0 60px 0;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#serch-Input
+{
+width:60%;
+max-width: 400px;
+padding: 15px 20px;
+border: none;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+font-size: 19px;
+color: #333;
+}
+
+#serchButton{
+    padding: 10px 20px;
+    background-color: rgb(20, 195, 244);
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.serach-Results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.search-Result{
+margin-bottom: 60px;
+width: 30%;
+height: 100%;
+border-radius: 5px;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+overflow: hidden;
+
+}
+
+.search-Result img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ transition: 0.4s ease-in-out;
+}
+
+.search-Result:hover img{
+    opacity: 0.6;
+
+}
+.search-Result a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+#show-more{
+    background-color: #008cba;
+    font-size: 20px;
+    border: none;
+    color: aliceblue;
+    padding: 10px 22px;
+    text-align: center;
+    display: block;
+    margin: 25px auto;
+    border-radius: 8px;
+    cursor: pointer;
+     display: none; 
+}
+@media screen and (max-width: 1024px){
+    .serach-Results{
+        padding: 20px;
+        
+    }
+    .search-Result{
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .serach-Results{
+        padding: 20px;
+        
+    }
+    .search-Result{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .search-Result{
+        width: 95%;
+    }
+}
+    
